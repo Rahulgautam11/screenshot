@@ -1,0 +1,25 @@
+.modal_pop_body {
+    figure {
+        height: 100%;
+        display: block;
+
+        img {
+            height: 100%;
+            width: 100%;
+            display: block;
+            object-fit: cover;
+        }
+    }
+
+    button {
+        padding: 8px 30px;
+        cursor: pointer;
+        border: 1px solid rgb(95, 6, 6);
+        border-radius: 6px;
+        font-size: 12px;
+        font-weight: 500;
+        background-color: rgb(95, 6, 6);
+        color: #fff;
+        margin-top: 20px;
+    }
+}
