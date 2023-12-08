@@ -9,7 +9,7 @@ import Image4 from '../src/assets/Images/image9.jpg'
 import Image5 from '../src/assets/Images/image10.jpg'
 import Image6 from '../src/assets/Images/image11.jpg'
 
-const DomainData = [
+const Data = [
   { img: Image1, about: "Digital Marketing Consulting", tittle: "Digital Marketing is continuously evolving and can be very confusing. It is critical to have a crisp, sorted-out, business-aligned strategy to get the maximum return on your investments.We put gether the right strategy, baseline, metrics, knowledge, techniques, and insights suitable to your business and industry." },
   { img: Image2, about: "Integrated Digital Marketing", tittle: "The whole is greater than the sum of its parts – Aristotle In the digital parlance, this is most relevant for integrated digital marketing. You need an end-to-end strategy using the suitable tools in the right order and quantity to get the best outcome for your business. Let us help you with this digital mix!" },
   { img: Image3, about: "Search Engine Optimization", tittle: "Search Engine Optimization (SEO) is about getting the right and optimized website structure, user-centric design, quality links, and citations. It needs multi-disciplinary skills to get-it-done, and we are right on top of the game." },
@@ -59,7 +59,7 @@ const App = () => {
             <button onClick={onStartCapture} className='capture'>Capture</button>
             <div className="card_container">
               {
-                DomainData.map((item, key) => {
+                Data.map((item, key) => {
                   return (
                     <div className="card_Services" data-aos="slide-up" key={key}>
                       <figure className='Image_wrap'>
